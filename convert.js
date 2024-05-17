@@ -1,3 +1,4 @@
+// Disclaimer: this code was entirely written by ChatGPT 4.0
 const ical = require('node-ical');
 const csvWriter = require('csv-writer').createObjectCsvWriter;
 const fs = require('fs');
@@ -92,6 +93,3 @@ function convertIcalToCsv(filePath) {
 
 // Replace 'path_to_ical_file.ics' with the path to your local iCal file
 convertIcalToCsv('path_to_ical_file.ics');
-
-
-// Disclaimer: this code was entirely written by ChatGPT 4.0
